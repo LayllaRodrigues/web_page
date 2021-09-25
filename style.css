@@ -1,5 +1,13 @@
 body {
+
+    border: 10px solid rgb(223, 35, 129);
+    margin: 40px;
     background-color: rgba(1, 6, 34, 0.932);
+
+}
+
+#banner {
+    width: 100%;
 }
 
 h1 {
@@ -9,8 +17,9 @@ h1 {
 }
 
 p {
-    text-align: center;
-    color: rgb(255, 255, 255);
+    text-align:center;
+    color:rgb(255, 255, 255);
+    margin: 40px;
 }
 
 #missao {
