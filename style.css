@@ -1,18 +1,24 @@
 body {
-    background-color: rgba(100, 232, 237, 0.932);
+    background-color: rgba(1, 6, 34, 0.932);
 }
 
 h1 {
     text-align: center;
-    color: darkslateblue;
+    color: rgb(223, 35, 129);
+    font-size: 50px
 }
 
 p {
     text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#missao {
+    font-size: 20px
 }
 
 strong {
-    color: darkslateblue;
+    color: rgb(223, 35, 129);
 }
 
 
