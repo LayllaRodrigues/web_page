@@ -1,13 +1,18 @@
 body {
-    background: #CCCCCC
+    background-color: rgba(100, 232, 237, 0.932);
 }
 
 h1 {
     text-align: center;
+    color: darkslateblue;
 }
 
 p {
     text-align: center;
+}
+
+strong {
+    color: darkslateblue;
 }
 
 
