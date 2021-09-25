@@ -12,13 +12,89 @@
 
         <img id="banner" src="banner.jpg">
 
-        <h1>Tipos de teste de Software </h1>
+        <h1>"Tipos e técnicas de teste de Software"</h1>
+        <h2>Teste Funcional: baseados em requisitos </h2>
+        
+        <h3>"EMPIRICO:"</h3>
+        
 
-        <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+        <p>
+            "Quando olhamos para os requisitos de negócio, precisamos levantar os cenários básicos para a aplicaçāo. Fazemos o levantamento de cenários com base em:"<em>"Cenários básicos - olhamos para os critérios e mapeamos com base em nossa experiencia."</em>
+        </p>
 
-        <p id="missao"><strong>Nossa missão é:  <em>"Proporcionar auto-estima e qualidade de vida aos clientes".</em></p></strong>
+        <h4>"SISTEMÁTICO:"</h4>
+        <p><strong>Partição de equivalência</strong>
+            <br></br>
+            
+            Essa técnica visa identificar as entradas do usuário na aplicação e então dividi-las em faixas de valores possíveis, para que usemos os dados eleitos como base para o teste. 
+        
+            <br></br>
 
-        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            <ol>
+                <strong>Passo a passo:</strong>
+                <li>Olhar para o requisito,identificar entradas implícitas que o usuário dará ao sistema. </li>
+                <li>Colocar o nome das variáveis, riscar uma linha e inserir os valores que identificar no requisito </li>
+                <li>Complementar as faixas de valor, identificando quais vem antes ou depois dos valores identificados nos requisitos.</li>
+            </ol>
+        </p>
+
+
+        <p><strong>Exemplo na prática</strong>
+            <br></br>
+            
+            Considere que na sua empresa há um sistema de recursos humanos que processa pedidos de emprego com base na idade de uma pessoa e que possui as seguintes regras de negócio: 
+            
+            <br></br>
+
+            Pessoas menores de 16 anos não devem trabalhar
+            Pessoas entre 16 e 60 anos podem trabalhar
+            Pessoas com mais de 60 anos não podem trabalhar
+            Dividindo estas regras em entradas possíveis para o sistema, teremos:
+
+            <br></br>
+
+            <img id="exemplo1.jpg" src="exemplo1.jpg">
+
+            <br></br>
+            Para obter uma cobertura de 100% com essa técnica, os casos de teste devem cobrir todas as partições identificadas (incluindo partições inválidas)* usando no mínimo um valor de cada partição. 
+            <br></br>
+            Para exemplificar, tomemos como base o exemplo acima para a criação dos casos de testes a seguir:
+            <br></br>
+            <img id="exemplo2.jpg" src="exemplo2.jpg">
+        </p>
+
+
+        <p><strong>Análise do valor limite</strong>
+
+            <br></br>
+            Analisamos os valores limites a fim de validar que aplicamos corretamente os limites para cada partição da aplicação
+            Na partição de equivalência, testamos com qualquer faixa de valores. Na análise de valor limite, testamos sempre os limites entre as partições. 
+            <br></br>
+            <strong>Exemplo</strong>
+            <br></br>
+            
+            <em>Regra de negócio:</em>
+            é permitido o saque de 400.
+            <br></br>
+            Então validamos os saques de valores limites:
+            <br></br>
+            Saque de $399,99 e $400,01 
+        </p>
+
+        
+        <p><strong> Tabela de decisão </strong>
+            <br></br>
+            Consiste em analisar as combinações entre as condições de um teste e definir qual o resultado esperado. 
+            Para ficar mais claro vamos utilizar como exemplo o saque de dinheiro em um caixa eletrônico:
+
+            <br></br>
+            <img id="exemplo3.jpg" src="exemplo3.jpg">
+            <br></br>
+            Utilizando a tabela de decisão temos certeza de que nossas 3 condições foram cobertas em 4 testes.
+        </p>
+
+        
+        
 
     </body>
     
