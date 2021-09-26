@@ -3,7 +3,6 @@ body {
     border: 5px solid rgb(223, 35, 129);
     margin: 100px;
     background-color: rgba(1, 6, 34, 0.932);
-
 }
 
 #banner {
@@ -13,45 +12,28 @@ body {
 #exemplo1 { 
     width: 50%;
     text-align: center
-    
 }
 
-h1 {
+.titulo{
+    
+    text-align: justify;
+    color: rgb(223, 35, 129);
+    font-size: 30px;
+    margin: 50px;
+}
+
+.titulo2{
+    text-align: center;
+    color: rgb(223, 35, 129);
+    font-size: 40px;
+    margin: 50px;
+}
+
+.titulo_centralizado{
     text-align: center;
     color: rgb(223, 35, 129);
     font-size: 50px
 }
-
-h2 {
-    text-align: center;
-    color: rgb(223, 35, 129);
-    font-size: 25px;
-    margin: 50px;
-}
-h3{
-    text-align: justify;
-    color: rgb(206, 17, 74);
-    font-size: 25px;
-    margin: 50px;
-
-}
-h4{
-    text-align: justify;
-    color: rgb(206, 17, 74);
-    font-size: 25px;
-    margin: 50px;
-
-}
-h5{
-    text-align: justify;
-    color: rgb(223, 35, 129);
-    font-size: 25px
-
-}
-
-
-
-
 
 p {
     text-align:justify;
@@ -72,9 +54,14 @@ strong {
     color: rgb(223, 35, 129);
     font-size: 20px;
     margin: 0px;
-
-
 }
 
+.steps{
+    font-style: italic;
+}
 
-
+ul{
+    text-align:justify;
+    color:rgb(255, 255, 255);
+    margin: 50px;
+}
