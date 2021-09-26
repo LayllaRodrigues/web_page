@@ -1,58 +1,56 @@
 body {
-
-    border: 5px solid rgb(223, 35, 129);
     margin: 100px;
-    background-color: rgba(1, 6, 34, 0.932);
+    background-color: rgba(223, 198, 215, 0.089);
 }
 
 #banner {
     width: 100%;
 }
 
-#exemplo1 { 
+#exemplo { 
     width: 50%;
-    text-align: center
+    text-align:right;
+    margin: 50px;
 }
 
 .titulo{
     
     text-align: justify;
     color: rgb(223, 35, 129);
-    font-size: 30px;
-    margin: 50px;
+    font-size:60px;
+    margin: 60px;
 }
 
 .titulo2{
     text-align: center;
     color: rgb(223, 35, 129);
-    font-size: 40px;
+    font-size: 90px;
     margin: 50px;
 }
 
 .titulo_centralizado{
     text-align: center;
     color: rgb(223, 35, 129);
-    font-size: 50px
+    font-size: 150px
+    
 }
 
 p {
     text-align:justify;
-    color:rgb(255, 255, 255);
+    color:rgb(92, 88, 88);
     margin: 50px;
+    font-size: 60px
 }
 ol{
     text-align:justify;
-    color:rgb(255, 255, 255);
+    color:rgb(92, 88, 88);
     margin: 50px;
-}
-
-#missao {
-    font-size: 20px
+    font-size: 60px
 }
 
 strong {
-    color: rgb(223, 35, 129);
-    font-size: 20px;
+    color: rgb(92, 88, 88);
+    font-size: 65px;
     margin: 0px;
 }
 
@@ -62,6 +60,40 @@ strong {
 
 ul{
     text-align:justify;
-    color:rgb(255, 255, 255);
+    color:rgb(92, 88, 88);
     margin: 50px;
+    font-size: 60px
 }
+
+.logo{
+    text-align: justify;
+    margin: 100px;
+    border: 50px solid rgb(223, 35, 129);
+    
+}
+
+.menu{
+    border: 50px solid rgb(223, 35, 129);
+    text-align: justify;
+    margin: 100px;
+}
+
+
+.empirico{
+    background: rgba(88, 84, 86, 0.205)
+}
+.sistematico{
+    background: rgba(223, 35, 129, 0.082)  
+}
+
+.valorlimite{
+    background: rgba(88, 84, 86, 0.205)
+}
+
+.tabeladecisao{
+    background: rgba(223, 35, 129, 0.082)
+
+}
+
+
+
