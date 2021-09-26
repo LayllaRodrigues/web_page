@@ -1,6 +1,6 @@
 body {
     margin: 100px;
-    background-color: rgba(223, 198, 215, 0.089);
+    background-color: rgba(255, 255, 255, 0.959);
 }
 
 #banner {
@@ -16,21 +16,21 @@ body {
 .titulo{
     
     text-align: justify;
-    color: rgb(223, 35, 129);
+    color: rgb(10, 12, 39);
     font-size:60px;
     margin: 60px;
 }
 
 .titulo2{
     text-align: center;
-    color: rgb(223, 35, 129);
+    color: rgb(10, 12, 39);
     font-size: 90px;
     margin: 50px;
 }
 
 .titulo_centralizado{
     text-align: center;
-    color: rgb(223, 35, 129);
+    color: rgb(10, 12, 39);
     font-size: 150px
     
 }
@@ -65,35 +65,17 @@ ul{
     font-size: 60px
 }
 
-.logo{
-    text-align: justify;
-    margin: 100px;
-    border: 50px solid rgb(223, 35, 129);
-    
-}
-
-.menu{
-    border: 50px solid rgb(223, 35, 129);
-    text-align: justify;
-    margin: 100px;
-}
-
-
 .empirico{
-    background: rgba(88, 84, 86, 0.205)
+    background: rgba(87, 83, 85, 0.205)
 }
 .sistematico{
     background: rgba(223, 35, 129, 0.082)  
 }
 
 .valorlimite{
-    background: rgba(88, 84, 86, 0.205)
+    background: rgba(87, 83, 85, 0.205)
 }
 
 .tabeladecisao{
     background: rgba(223, 35, 129, 0.082)
-
 }
-
-
-
