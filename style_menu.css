@@ -2,25 +2,24 @@
 header {
 	background: #a56fe459;
 	padding: 90px 0px;
-
-}
+} 
 
 .menu {
 	position: relative;
-	width: 2140px;
+	width: 1400px;
 	margin: 0 auto;
-}
+} 
 
 nav {
 	position: absolute;
 	top: 150px;
 	right: 0;
-}
+} 
 
 nav li {
 	display: inline;
 	margin: 0 0 0 15px;
-}
+} 
 
 nav a {
 	text-transform: uppercase;
@@ -29,18 +28,16 @@ nav a {
 	font-size: 65px;
 	text-decoration:none;
     margin: 0 0 0 15px;
-
-}
+} 
 
 nav a:hover{
     color: #e01cc0;
-}
+} 
 
 .test{
     margin: 235px 0px 0px 560px;
     padding: 50px 0;
-}
-
+} 
 .test li{
     display: inline-block;
     text-align: center;
@@ -52,33 +49,31 @@ nav a:hover{
     box-sizing: border-box;
     border: 8px solid darkorchid;
     border-radius: 90px;
-}
+} 
 
 .test h2 {
 	font-size: 90px;
 	font-weight: bold;
     vertical-align: center;
 
-} 
-
+}  
 .test li:hover{
     border-color: #e01cc0;
-}
+} 
 
 .test li:active{
     border-color: #6b2196
-}
+} 
 
 .test li:hover h2{
     font-size: 95px;
-}
+} 
 
 p {
 	font-size: 100px;
     font-weight: bold; 
     text-decoration:none;
-
-}
+} 
 
 .titulo{
     font-size: 200px;
@@ -91,8 +86,45 @@ footer {
     text-align: center;
     background: url("bg.jpg");
     margin: 278px 0px 0px;
-    padding: 200px 0;
+    padding: 90px 0;
     background: #6c10975e;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 30px;
+	margin: 0px 0 0;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+    padding: 200px 0;
 
 }
 
+form {
+	margin: 40px 0;
+}
+
+form label {
+	display:block;
+	font-size: 90px;
+	margin: 0 0 10px;
+    color: #4a0a63;
+
+}
+
+form input {
+	display: block;
+	margin: 0 0 30px;
+	padding: 25px 25px;
+	width: 90%;
+}
+
+.botton{
+    padding: 40px;
+    font-size: 50px;
+    color: #4a0a63;
+    background: #c698db5e;
+}
