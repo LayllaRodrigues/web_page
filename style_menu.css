@@ -71,8 +71,9 @@ nav a:hover{
 
 p {
 	font-size: 100px;
-    /* font-weight: bold;  */
     text-decoration:none;
+    padding: 60px 0px  0px  0px ;
+
 } 
 
 .titulo{
@@ -99,72 +100,102 @@ footer {
 main {
 	width: 940px;
 	margin: 0 auto;
-    padding: 200px 0;
+    padding: 0px 0px;
 
 }
 
 form {
-	margin: 40px 0;
-}
-
-form label, form p{
-	display:block;
+    color: #6b2196;
+} 
+form label, form legend{
+	display:inline;
 	font-size: 60px;
-	margin: 0 0 30px;
     color: #4a0a63;
-
 }
 
 .input-padrao {
 	display: block;
 	margin: 0 0 30px;
-	padding: 20px 30px;
+	padding: 30px 90px;
 	width: 90%;
+    color: #4a0a63;
+    font-size: 60px;
 }
 
+
 .botton{
-    padding: 40px;
+    padding: 15px;
+    width: 110%;
     font-size: 50px;
     color: #4a0a63;
     background: #c698db5e;
     font-weight: bold; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.botton:hover {
+    background: #9a30c7;
+    font-style: oblique;
+    transform: scale(1.2);
 
 }
 
 .contato-radio{
     padding: 100px 0px  70px  0px ;
+    color: #4a0a63;
+
 }
 
 .lgpd{
-    padding: 30px 0px  30px  0px ;
-    font-size: 60px;
-    
-}
+    padding: 60px 0px  0px  0px ;
+    font-size: 60px;  
+} 
 
 .dados_contato{
     font-weight: bold; 
     font-size: 90px;
     text-align: justify;
+    padding: 60px 0px;
 
 }
 
 select{
     display: block;
-	margin: 10px 10px 0px;
-	padding: 30px 30px;
-	width: 95%;
-    font-size: 40px;
+	margin: 10px 0px 0px;
+    font-size: 50px;
+    color: #4a0a63;
+    padding: 40px  0;
+    width: 110%;
 
-}
-
+} 
 input[type=radio] {
     border: 0px;
     width: 5%;
     height: 3em;
-}
+    
+} 
 
 input[type=checkbox] {
     border: 0px;
     width: 5%;
-    height: 3em;
+    height: 3em;  
+} 
+
+form label {
+    display:block;
+    font-size: 60px;
+    margin: 0 0 30px;    
+} 
+
+fieldset legend{
+    display: block;
+	margin: 0 0 30px;
+	padding: 30px 0px;
+	width: 90%;
+    color: #4a0a63;
+    font-size: 60px;
 }
+

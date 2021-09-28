@@ -26,18 +26,18 @@
 			<form>
 				<p class="dados_contato">Dados de contato</p>
 				<label for="nomesobrenome">Nome e sobrenome</label>
-				<input type="text" id="nomesobrenome" class="input-padrao">
+				<input type="text" id="nomesobrenome" class="input-padrao"  required>
 
 				<label for="email">Email</label>
-				<input type="text" id="email" class="input-padrao">
+				<input type="email" id="email" class="input-padrao" required>
 
 				<label for="telefone">Telefone</label>
-				<input type="text" id="telefone" class="input-padrao">
+				<input type="tel" id="telefone" class="input-padrao" required>
 
 				<label for="mensagem">Mensagem</label>
-				<textarea id="mensagem"  class="input-padrao"></textarea> 
-				<div>
-					<p>Como prefere o nosso contato?</p>
+				<textarea id="mensagem"  class="input-padrao"></textarea > 
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
 					<label for="radio-email">
 						<input type="radio" name="contato" value="email" id="radio-email">
 						Email
@@ -52,16 +52,16 @@
 						<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
 						WhatsApp
 					</label>
-				</div>
+				</fieldset>
 
-				<div>
-					<p>Qual horário prefere ser atendido?</p>
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
 					<select>
 						<option>Manhã</option>
 						<option>Tarde</option>
 						<option>Noite</option>
 					</select>
-				</div>
+				</fieldset>
 
 				<label class="lgpd"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
 
