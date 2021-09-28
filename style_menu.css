@@ -199,3 +199,23 @@ fieldset legend{
     font-size: 60px;
 }
 
+table {
+    margin: 90px 0 40px;
+    font-size: 60px;
+
+}
+
+thead {
+    background: #8645db;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+
