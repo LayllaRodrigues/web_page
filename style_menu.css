@@ -1,139 +1,40 @@
-
-header {
-	background: #a56fe459;
-	padding: 90px 0px;
-} 
-
-.menu {
-	position: relative;
-	width: 1400px;
-	margin: 0 auto;
-} 
-
-nav {
-	position: absolute;
-	top: 150px;
-	right: 0;
-} 
-
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;
-} 
-
-nav a {
-	text-transform: uppercase;
-	color: #6b2196;
-	font-weight: bold;
-	font-size: 65px;
-	text-decoration:none;
-    margin: 0 0 0 15px;
-} 
-
-nav a:hover{
-    color: #e01cc0;
-} 
-
-.test{
-    margin: 235px 0px 0px 560px;
-    padding: 50px 0;
-} 
-.test li{
-    display: inline-block;
-    text-align: center;
-    color: #000000;
-    vertical-align: top;
-	width: 1140px;
-	margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 8px solid darkorchid;
-    border-radius: 90px;
-} 
-
-.test h2 {
-	font-size: 90px;
-	font-weight: bold;
-    vertical-align: center;
-
-}  
-.test li:hover{
-    border-color: #e01cc0;
-} 
-
-.test li:active{
-    border-color: #6b2196
-} 
-
-.test li:hover h2{
-    font-size: 95px;
-} 
-
-p {
-	font-size: 100px;
-    text-decoration:none;
-    padding: 60px 0px  0px  0px ;
-
-} 
-
-.titulo{
-    font-size: 200px;
-    font-weight: bold; 
-    text-decoration:none;
-    margin: 0 20%;
-}
-
-footer {
-    text-align: center;
-    background: url("bg.jpg");
-    margin: 278px 0px 0px;
-    padding: 90px 0;
-    background: #6c10975e;
-}
-
-.copyright {
-	color: #FFFFFF;
-	font-size: 50px;
-	margin: 0px 0 0;
-    padding: 0px 200px 200px 0px;
-
-}
-
 main {
 	width: 940px;
 	margin: 0 auto;
-    padding: 0px 0px;
-
 }
 
 form {
     color: #6b2196;
+    margin: 1em;
+
 } 
 form label, form legend{
-	display:inline;
-	font-size: 60px;
-    color: #4a0a63;
+	
+    color: #4a0a63; 
+    display:block;
+	font-size: 20px;
+	margin: 1em;
 }
 
 .input-padrao {
 	display: block;
-	margin: 0 0 30px;
-	padding: 30px 90px;
-	width: 90%;
+	margin: 0 0 15px;
+	padding:15px 10px;
+	width: 70%;
     color: #4a0a63;
-    font-size: 60px;
+    font-size: 1m;
 }
 
 
 .botton{
-    padding: 15px;
-    width: 110%;
-    font-size: 50px;
+    padding: 5px;
+    width: 50%;
+    font-size: 1em;
     color: #4a0a63;
     background: #c698db5e;
     font-weight: bold; 
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
     cursor: pointer;
 
 }
@@ -146,64 +47,53 @@ form label, form legend{
 }
 
 .contato-radio{
-    padding: 100px 0px  70px  0px ;
+    padding: 1px 0px  1px  0px ;
     color: #4a0a63;
 
 }
 
-.lgpd{
-    padding: 60px 0px  0px  0px ;
-    font-size: 60px;  
-} 
-
 .dados_contato{
     font-weight: bold; 
-    font-size: 90px;
+    font-size: 2em;
     text-align: justify;
-    padding: 60px 0px;
+    padding: 10px 0px;
 
 }
 
 select{
     display: block;
-	margin: 10px 0px 0px;
-    font-size: 50px;
+	margin: 1px;
+    font-size: 1em;
     color: #4a0a63;
-    padding: 40px  0;
-    width: 110%;
+    padding: 5px  0;
+    width: 50%;
 
 } 
 input[type=radio] {
     border: 0px;
-    width: 5%;
-    height: 3em;
+    width: 3%;
+    height: 1em;
     
-} 
-
-input[type=checkbox] {
-    border: 0px;
-    width: 5%;
-    height: 3em;  
 } 
 
 form label {
     display:block;
-    font-size: 60px;
-    margin: 0 0 30px;    
+    font-size: 1em;
+    margin: 1em;    
 } 
 
-fieldset legend{
+fieldset legend  {
     display: block;
-	margin: 0 0 30px;
-	padding: 30px 0px;
-	width: 90%;
+	margin: 1em;
+	padding: 0px 0px;
+	width: 30%;
     color: #4a0a63;
-    font-size: 60px;
+    font-size: 1em;
 }
 
 table {
-    margin: 90px 0 40px;
-    font-size: 60px;
+    margin: 30px 0 20px;
+    font-size: 1em;
 
 }
 
@@ -211,13 +101,161 @@ thead {
     background: #8645db;
     color: white;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 1em;
 
 }
 
 td, th {
     border: 1px solid #000000;
-    padding: 8px 15px;
+    padding: 4px 5px;
 }
 
 
+ body {
+    margin: 1%; 
+    font-family: 'Scheherazade New', serif;   
+} 
+
+
+p {
+    text-align:justify;
+    margin: 1em 0 1em;
+}
+ol{
+    text-align:justify;
+    color:rgb(92, 88, 88);
+    margin: 0px;
+    font-size: 1em
+}
+
+strong {
+    text-align: center;
+    color: rgb(83, 25, 158);
+    font-size: 1.5em;
+    margin: 1em 0 1em;
+    font-weight: bold;
+}
+
+.steps{
+    font-style: italic;
+}
+ul{
+    text-align:justify;
+    color:rgb(92, 88, 88);
+    margin: 0px;
+    font-size: 1em
+} 
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    background: #6c10975e;
+	margin: 0 auto;
+    padding: 0 550px;
+} 
+.copyright {
+	color: #FFFFFF;
+	font-size: 1em;
+	margin: 0px auto;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 0px;
+} 
+
+nav a {
+	text-transform: uppercase;
+	color: #6b2196;
+	font-weight: bold;
+	font-size: 2px;
+	text-decoration:none;
+    margin: 0 0 0 15px;
+
+} 
+
+nav a:hover{
+    color: #e01cc0;
+} 
+
+
+header {
+	background: #a56fe459;
+    padding: 0;
+}
+
+.menu {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 5px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #6b2196;
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration:none;
+    margin: 0 0 0 15px;
+}
+
+nav a:hover{
+    color: #e01cc0;
+}
+
+
+ main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 1em 0;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.botton{
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.botton:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
