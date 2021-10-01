@@ -2,12 +2,17 @@
 <html lang="pt br">
     <head>
         <meta charset="UTF-8">
+        <meta name"viewport" content="width=device=width" >
+
         <title>Teste de Software</title>
+
         <link rel="stylesheet" href="reset.css"> 
-        <link rel="stylesheet" href="/style.css/style_home.css"> 
+        <link rel="stylesheet" href="/style.css/style_conteudo.css"> 
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+        
     </head>
     
 
@@ -29,44 +34,47 @@
             </div>
             <h2 class="titulo_page">Técnicas de teste</h2>
             <section class="empirico">
-                <h3 class="titulo">EMPIRICO:</h3>
+                <p><strong class="titulo1">EMPIRICO:</p></strong>
                 <p>Quando olhamos para os requisitos de negócio, precisamos levantar os cenários básicos para a aplicaçāo.
                     Fazemos o levantamento com base nos critérios e mapeamos com base em nossa experiencia.</p>
             </section>
-            <section class="sistematico">
-                <h4 class="titulo">SISTEMÁTICO:</h4>
-                    <strong>Partição de equivalência</strong>
+            <section class="particao_equivalencia">
+                <h4 class="titulo1">SISTEMÁTICO:</h4>
+                    <strong class="titulo">Partição de equivalência</strong>
                         <p>Essa técnica visa identificarmos as entradas do usuário na aplicação e então dividi-las em faixas de valores possíveis, para que usemos os dados eleitos como base para o teste.</p>
-                            <p><strong>Passo a passo:</p></strong>
+                            <p>Passo a passo:</p>
                             <ol>
                                 <li class="steps">Olhar para o requisito,identificar entradas implícitas que o usuário dará ao sistema. </li>
                                 <li class="steps">Colocar o nome das variáveis, riscar uma linha e inserir os valores que identificar no requisito </li>
                                 <li class="steps">Complementar as faixas de valor, identificando quais vem antes ou depois dos valores identificados nos requisitos.</li>
                             </ol>
                                     
-                        <p><strong>Exemplo prático:</p></strong>
+                        <p>Exemplo prático:</p>
+
 
                         <p>Considere que na sua empresa há um sistema de recursos humanos que processa pedidos de emprego com base na idade de uma pessoa e que possui as seguintes regras de negócio. Dividindo estas regras em entradas possíveis para o sistema, teremos:</p>
+
+
                         <ul>
                             <li> Pessoas menores de 16 anos não devem trabalhar</li>
                             <li>Pessoas entre 16 e 60 anos podem trabalhar</li>
                             <li>Pessoas com mais de 60 anos não podem trabalhar</li>
                         </ul>
-                      
-                    
-                        <img id="exemplo" src="/source/exemplo1.jpg" >
+                        <br></br>
+                        <img  class="imge" id="exemplo" src="/source/exemplo1.jpg" >
+                        <br></br>
+
                     <p>Para obter uma cobertura de 100% com essa técnica, os casos de teste devem cobrir todas as partições identificadas (incluindo partições inválidas)* usando no mínimo um valor de cada partição. 
                         Para exemplificar, tomemos como base o exemplo acima para a criação dos casos de testes a seguir:</P>
-                    <p><img id="exemplo" src="/source/exemplo2.jpg"></p>   
+                    <p><img class="imge" id="exemplo" src="/source/exemplo2.jpg"></p>   
             </section>
+            <br></br>
+
+                <section class=" valor_limite">
                     
-                <section class=" valorlimite">
-                    
-                    <strong>Análise do valor limite</strong>
+                    <strong class="titulo">Análise do valor limite</strong>
 
                     <p>Analisamos os valores limites a fim de validar que aplicamos corretamente os limites para cada partição da aplicação. Na partição de equivalência, testamos com qualquer faixa de valores. Na análise de valor limite, testamos sempre os limites entre as partições.</p>
-                        
-                    <p><strong>Exemplo</strong></p>
                         
                         <p>Regra de negócio:
                         é permitido o saque de R$400.
@@ -77,17 +85,18 @@
         
             <section class="tabeladecisao">
                 
-                <strong> Tabela de decisão </strong>
+                <strong class="titulo"> Tabela de decisão </strong>
                 <p>Consiste em analisar as combinações entre as condições de um teste e definir qual o resultado esperado. 
                     Para ficar mais claro vamos utilizar como exemplo o saque de dinheiro em um caixa eletrônico.</p>
                 <p>Utilizando a tabela de decisão temos certeza de que nossas 3 condições foram cobertas em 4 testes.</p>
 
-                    <img id="exemplo" src="/source/exemplo3.jpg">
+                    <img class="imge" id="exemplo" src="/source/exemplo3.jpg">
 
-                <strong><p>Se quiser saber mais, assista ao video a seguir:</p></strong>
-
+                    <br></br>
                 <div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5V012tGZot4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <strong><p>Se quiser saber mais, assista ao video a seguir:</p></strong>
+
+                    <iframe width="500px" height="315" src="https://www.youtube.com/embed/5V012tGZot4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                        
                 </div>
 

@@ -11,12 +11,12 @@
 	margin: 15% 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
+	border: 2px solid #000000da;
 	border-radius: 10px;
 }
 
 .conteudos h2 {
-	font-size: 30px;
+	font-size: 2em;
 	font-weight: bold;
 } 
 
@@ -28,10 +28,10 @@
 .conteudos li:active{
     border-color: #6b2196;
 
-}
+} 
 
 .conteudos li:hover a{
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: #e01cc0;
 
 }
@@ -49,14 +49,8 @@ a:hover{
 
 a:active{
     color: #6b2196
-}
+} 
 
-
-a{
-    font-size: 1em;
-    font-weight: bold; 
-    text-decoration:none;
-}
 
 footer {
     text-align: center;
@@ -91,7 +85,7 @@ ol{
     font-size: 1em;
     font-weight: bold;
 
-}
+} 
 
 strong {
     text-align: center;
@@ -99,7 +93,7 @@ strong {
     font-size: 1.5em;
     margin: 1em 0 1em;
     font-weight: bold;
-}
+} 
 
 
 ul{
@@ -108,7 +102,7 @@ ul{
     margin: 0px;
     font-size: 1em
 
-} 
+}  
  
 
 header {
@@ -145,7 +139,7 @@ nav a {
 	font-size: 1em;
 	text-decoration:none;
     margin: 0 0 0 15px;
-}
+} 
 
 nav a:hover{
     color: #e01cc0;
@@ -154,6 +148,28 @@ nav a:hover{
 p strong{
     font-size: 0.80em;
     font-weight: bold;
+}
+
+@media(max-width: 480px) {
+    .menu, .conteudos{
+        width:auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+} 
+
+a{
+    font-size: 1em;
+    color: rgb(99, 27, 158);
+    text-decoration: none;
+    
 }
 
 

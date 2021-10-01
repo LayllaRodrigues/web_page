@@ -2,7 +2,6 @@
     padding: 1px 0px  1px  0px ;
     color: #4a0a63;
     border: none;
-
 } 
 .dados_contato{
     font-weight: bold; 
@@ -104,14 +103,14 @@ footer {
     margin: 0px 290px;
 } 
 
-}
+
 
 nav li {
 	display: inline-block;
 	margin: 50% 50%;
     text-align: center;
 
-} 
+}  
 
 nav a {
 	text-transform: uppercase;
@@ -121,7 +120,7 @@ nav a {
 	text-decoration:none;
     margin: 0 0 0 15px;
 
-} 
+}  
 
 nav a:hover{
     color: #e01cc0;
@@ -135,7 +134,7 @@ header {
 
 .menu {
 	position: relative;
-	width: 400px;
+	width: 400px; 
 	margin: 0 auto;
     font-weight: bold;
     font-size: 1.2em;
@@ -146,23 +145,23 @@ nav {
 	top: 40px;
 	right: 0;
     color: #6b2196;
-}
+}  
 
 nav li {
 	display: inline;
 	margin: 0 0 0 5px;
     color: #6b2196;
     
-}
+}  
 
-nav a {
+ nav a {
 	text-transform: uppercase;
 	color: #6b2196;
 	font-weight: bold;
 	font-size: 1em;
 	text-decoration:none;
     margin: 0 0 0 15px;
-}
+} 
 
 nav a:hover{
     color: #e01cc0;
@@ -209,3 +208,4 @@ form label, form legend {
 	transform: scale(1.2);
     
 } 
+
