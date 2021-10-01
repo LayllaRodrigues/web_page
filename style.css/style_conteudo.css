@@ -62,6 +62,7 @@ ol{
     font-size: 1em
 }
 
+
 strong{
     text-align: center;
     font-size: 1.5em;
@@ -132,7 +133,7 @@ header {
     text-align: center;
 }
 
-.tipos{
+.tipos, .titulo5{
     width: 300px;
     float: left;
     display: inline-block;
@@ -140,7 +141,7 @@ header {
     padding: 3em;
 }
 
-.lista_tipos{
+.lista_tipos, .titulo5{
     
 	display: inline-block;
     text-transform: uppercase;
@@ -216,15 +217,11 @@ strong p {
     }
 }
 
-.imge { 
+.imge, .sobre_img{ 
     /* padding: 2em; */
     width: 40%;
 	float:initial;
     vertical-align: top; 
-
-
-
 }
-
 
 
