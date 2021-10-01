@@ -9,6 +9,12 @@ main{
     padding: 3em
 }
 
+.logo{
+    padding: 1.2em;
+
+
+}
+
 .empirico,.particao_equivalencia, .valor_limite, .tabeladecisao, .video 
 {
     padding: 1em;
@@ -56,12 +62,18 @@ ol{
     font-size: 1em
 }
 
-strong {
+strong{
     text-align: center;
-    color: rgb(83, 25, 158);
     font-size: 1.5em;
     margin: 0.5em 0 0.5em;
     font-weight: bold;
+    color: rgb(97, 9, 148);
+
+}
+
+.titulo3{
+    color: rgb(95, 91, 91);
+
 }
 
 .steps{
@@ -92,9 +104,9 @@ nav a {
 	text-transform: uppercase;
 	color: #6b2196;
 	font-weight: bold;
-	font-size: 1px;
+	font-size: 1em;
 	text-decoration:none;
-    margin: 0 0 0 15px; 
+    margin: 0 0 0 15px;
 } 
 
 nav a:hover{
@@ -109,24 +121,41 @@ header {
 
 .menu {
 	position: relative;
-	width: 500px; 
+	width: 400px; 
 	margin: 0 auto;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
 } 
 
+.titulo2{
+    vertical-align:top;
+    text-align: center;
+}
+
 .tipos{
-    width: 50%;
-	float:right
-    /* display: inline-block; */
-    /* vertical-align: top; */
+    width: 300px;
+    float: left;
+    display: inline-block;
+    vertical-align:baseline;
+    padding: 3em;
 }
 
 .lista_tipos{
-    width: 30%;
+    
 	display: inline-block;
-	/* vertical-align: top; */
+    text-transform: uppercase;
+    text-align: justify;
+    font-weight: bold;
+    float:inherit;
+    padding: 2em;
+    font-size: 1.5em;
+}
 
+.QAxtester{
+    vertical-align: top;
+    display:inline;
+    padding: 3em;
+    
 }
 
 nav {
